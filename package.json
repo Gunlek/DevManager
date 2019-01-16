@@ -1,0 +1,17 @@
+{
+  "name": "dev_manager",
+  "version": "0.1.0",
+  "description": "A full manager to handle both beta release and development period",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Fabien Aubret <fabien.aubret@gadzarts.org>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^4.0.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
