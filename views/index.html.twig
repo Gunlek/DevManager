@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/css/main.min.css" />
+    <title>DevManager - V0.1.0 - Alpha</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      {% include 'lib/team_members.html.twig' %}
+      {% include 'lib/quick_notes.html.twig' %}
+    </div>
+
+    <div class="main-zone">
+      <div class="inside-tab-nav">
+        <ul class="tab-titles">
+          <a href="#"><li>Scope</li></a>
+          <a href="#"><li>Indev</li></a>
+          <a href="#"><li>Bug tracking</li></a>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
