@@ -9,6 +9,10 @@ const menu_template = [
         click () { alert('you will connect !') }
       }
     ]
+  },
+  {
+    label: "Fullscreen mode",
+    role: "togglefullscreen"
   }
 ];
 
