@@ -14,11 +14,28 @@
     <div class="main-zone">
       <div class="inside-tab-nav">
         <ul class="tab-titles">
-          <a href="#"><li>Scope</li></a>
-          <a href="#"><li>Indev</li></a>
-          <a href="#"><li>Bug tracking</li></a>
+          <a href="#" data-toggle="scope-tab"><li>Scope</li></a>
+          <a href="#" data-toggle="indev-tab"><li>Indev</li></a>
+          <a href="#" data-toggle="bug-tracking-tab"><li>Bug tracking</li></a>
         </ul>
+
+        <div class="tabs">
+          <div class="tab" id="scope-tab">
+            <h1>SCOPE</h1>
+          </div>
+
+          <div class="tab" id="indev-tab" hidden>
+            <h1>INDEV</h1>
+          </div>
+
+          <div class="tab" id="bug-tracking-tab" hidden>
+            <h1>BUG-TRACKING</h1>
+          </div>
+        </div>
+
       </div>
     </div>
+
+    <script type="text/javascript" src="utils/tabs.js"></script>
   </body>
 </html>
